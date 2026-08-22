@@ -7,7 +7,13 @@ AndroidX `webgpu` module source with the Dawn native dependency pinned to a
 different commit than the official release:
 
 - Dawn source commit: `b0713abb7699b219ff3f82f7caccc299047f95c0`
-- Artifact version: `1.0.0-alpha05`
+- Artifact versions:
+  - `1.0.0-alpha05` — same version string as the official release; only
+    resolves correctly if the consuming project excludes `androidx.webgpu`
+    from `google()`/`mavenCentral()` (see note below).
+  - `1.0.0-dev05` — a version Google's official `androidx.webgpu` release
+    will never publish (it only ships `alpha` versions), so it can't collide
+    with the real artifact.
 
 ## Usage
 
@@ -19,6 +25,20 @@ repositories {
 }
 
 dependencies {
-    implementation("androidx.webgpu:webgpu:1.0.0-alpha05")
+    implementation("androidx.webgpu:webgpu:1.0.0-dev05")
 }
 ```
+
+**Important:** Google publishes an official `androidx.webgpu:webgpu` on
+`google()`/`dl.google.com`. If you use the `1.0.0-alpha05` version from this
+repo, you must exclude `androidx.webgpu` from `google()`/`mavenCentral()` in
+your repository declarations, or Gradle will silently resolve the official
+artifact instead of this one:
+
+```kotlin
+google { content { excludeGroup("androidx.webgpu") } }
+mavenCentral { content { excludeGroup("androidx.webgpu") } }
+```
+
+Using the `1.0.0-dev05` version avoids this problem entirely, since that
+version string doesn't exist on Google's repo.
