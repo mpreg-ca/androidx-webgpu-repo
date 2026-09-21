@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.webgpu",
+    "module": "webgpu",
+    "version": "1.0.0-dev06",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.0-rc-1",
+      "buildId:": "0"
+    }
+  },
+  "variants": [
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "webgpu-1.0.0-dev06-sources.jar",
+          "url": "webgpu-1.0.0-dev06-sources.jar",
+          "size": 234852,
+          "sha512": "d77bdbf36923c4a67551dec4cd1e961ab3c1cd5a6402e1bcda4956cef4a7194e1d661cc3be923c7ee15440a3aef993835760d0f307d4d980fe06ad1a964b333f",
+          "sha256": "49e83aeda9c82a5831391f68973b4c85ae1dd73b8fbd262273293eabcc119afb",
+          "sha1": "83a4240f910cadb2734c7b575c580d71502d3472",
+          "md5": "f650e72a48e413ecc936e39d413aa05f"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation-experimental",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "webgpu-1.0.0-dev06.aar",
+          "url": "webgpu-1.0.0-dev06.aar",
+          "size": 13216213,
+          "sha512": "160e1af343b3ff5833aa9b25b82e5e055f0b6db79d5a9bb93b368fd9e0a775b8fb1d262df19d3bce8d1c54bd43d7f0b21fe25deba5d96f56dd13c32bc8642413",
+          "sha256": "cb39f60ad6d0315f54230dbbcc916831f7278e66b014de429717696a10832c7b",
+          "sha1": "b4732bcbdec84152184526e932d80f0f5490700b",
+          "md5": "fb0227895536a6253e99a0295b893ed0"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation-experimental",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "webgpu-1.0.0-dev06.aar",
+          "url": "webgpu-1.0.0-dev06.aar",
+          "size": 13216213,
+          "sha512": "160e1af343b3ff5833aa9b25b82e5e055f0b6db79d5a9bb93b368fd9e0a775b8fb1d262df19d3bce8d1c54bd43d7f0b21fe25deba5d96f56dd13c32bc8642413",
+          "sha256": "cb39f60ad6d0315f54230dbbcc916831f7278e66b014de429717696a10832c7b",
+          "sha1": "b4732bcbdec84152184526e932d80f0f5490700b",
+          "md5": "fb0227895536a6253e99a0295b893ed0"
+        }
+      ]
+    },
+    {
+      "name": "libraryVersionMetadata",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "library-version-metadata"
+      },
+      "files": [
+        {
+          "name": "webgpu-1.0.0-dev06-versionMetadata.json",
+          "url": "webgpu-1.0.0-dev06-versionMetadata.json",
+          "size": 185635,
+          "sha512": "2a26275b1ff99a0ee223bab913b00a0693b79295cfe6b442dc3b0d80a5f4fee1e7df48cb10c11278bf03a0caece59849a2a2df9ed66fe58fa90930694b7c4da9",
+          "sha256": "1548cf42a321f3f7e660c878339cf634b8564240de55e3a3bb24646d17440234",
+          "sha1": "ed32415ad853eb7a80a587824e0a964cadc11604",
+          "md5": "e07069567716c5bd1274a5da02572581"
+        }
+      ]
+    }
+  ]
+}
