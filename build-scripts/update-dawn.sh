@@ -39,7 +39,7 @@ log "gclient sync (Dawn third_party deps)"
 # ---------------------------------------------------------------------------
 BUILD_GRADLE="$DAWN_DIR/tools/android/webgpu/build.gradle"
 if ! grep -q "CMAKE_CXX_FLAGS_RELWITHDEBINFO" "$BUILD_GRADLE"; then
-  sed -i "s|arguments '-DANDROID_STL=c++_shared', '-DDAWN_BUILD_PROTOBUF=OFF'|arguments '-DANDROID_STL=c++_shared', '-DDAWN_BUILD_PROTOBUF=OFF', '-DCMAKE_CXX_FLAGS_RELWITHDEBINFO=-Os -DNDEBUG'|" "$BUILD_GRADLE"
+  sed -i "s|arguments '-DANDROID_STL=c++_shared', '-DDAWN_BUILD_PROTOBUF=OFF'|arguments '-DANDROID_STL=c++_static', '-DDAWN_BUILD_PROTOBUF=OFF', '-DCMAKE_CXX_FLAGS_RELWITHDEBINFO=-Os -DNDEBUG'|" "$BUILD_GRADLE"
 fi
 
 # ---------------------------------------------------------------------------

@@ -38,6 +38,20 @@ because `gclient sync` and the androidx `repo sync` are incremental.
    and update the root `README.md` with the new Dawn commit and version.
 8. `git add` + `git commit` in this repo (does not push).
 
+## Fixed: missing libc++_shared.so
+
+Dawn's `tools/android/webgpu/build.gradle` passes `-DANDROID_STL=c++_shared`,
+which makes `libwebgpu_c_bundled.so` dynamically depend on
+`libc++_shared.so` — but the AAR never bundles that file, and consumers
+hit `library "libc++_shared.so" not found` at runtime. The official
+Google-published artifact doesn't have this problem because it links the
+C++ runtime statically. `update-dawn.sh` now patches the same
+`ANDROID_STL` argument to `c++_static` after each checkout (for the same
+reason as the `-Os` patch below: the file resets to upstream on every
+Dawn commit switch). Verified via `readelf -d ... | grep NEEDED` that the
+built `.so` no longer references `libc++_shared.so`, matching the
+official artifact.
+
 ## Size
 
 The upstream Dawn `tools/android/webgpu/build.gradle` compiles the native lib

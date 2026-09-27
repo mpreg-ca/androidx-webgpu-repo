@@ -77,11 +77,11 @@
         {
           "name": "webgpu-1.0.0-dev06.aar",
           "url": "webgpu-1.0.0-dev06.aar",
-          "size": 13216213,
-          "sha512": "160e1af343b3ff5833aa9b25b82e5e055f0b6db79d5a9bb93b368fd9e0a775b8fb1d262df19d3bce8d1c54bd43d7f0b21fe25deba5d96f56dd13c32bc8642413",
-          "sha256": "cb39f60ad6d0315f54230dbbcc916831f7278e66b014de429717696a10832c7b",
-          "sha1": "b4732bcbdec84152184526e932d80f0f5490700b",
-          "md5": "fb0227895536a6253e99a0295b893ed0"
+          "size": 14296228,
+          "sha512": "a37a1eb83fab77f478820a923abbe9bb7c2eee9b4b071e15c4a0c3c4a85598bc0552b515197fdfe8e50554a723fcd6f01db200f909f6f52ddb3f1e13022ae2fc",
+          "sha256": "c6ebd7954084028d5dd659a2b415993ec28c22b75f57bd1d628f28d59694e9a8",
+          "sha1": "0683e8489325652063e4df039e56295b80000f0e",
+          "md5": "322303ca5be95145a3457d04b0e3aab1"
         }
       ]
     },
@@ -127,11 +127,11 @@
         {
           "name": "webgpu-1.0.0-dev06.aar",
           "url": "webgpu-1.0.0-dev06.aar",
-          "size": 13216213,
-          "sha512": "160e1af343b3ff5833aa9b25b82e5e055f0b6db79d5a9bb93b368fd9e0a775b8fb1d262df19d3bce8d1c54bd43d7f0b21fe25deba5d96f56dd13c32bc8642413",
-          "sha256": "cb39f60ad6d0315f54230dbbcc916831f7278e66b014de429717696a10832c7b",
-          "sha1": "b4732bcbdec84152184526e932d80f0f5490700b",
-          "md5": "fb0227895536a6253e99a0295b893ed0"
+          "size": 14296228,
+          "sha512": "a37a1eb83fab77f478820a923abbe9bb7c2eee9b4b071e15c4a0c3c4a85598bc0552b515197fdfe8e50554a723fcd6f01db200f909f6f52ddb3f1e13022ae2fc",
+          "sha256": "c6ebd7954084028d5dd659a2b415993ec28c22b75f57bd1d628f28d59694e9a8",
+          "sha1": "0683e8489325652063e4df039e56295b80000f0e",
+          "md5": "322303ca5be95145a3457d04b0e3aab1"
         }
       ]
     },
