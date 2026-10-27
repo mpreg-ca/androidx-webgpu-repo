@@ -10,7 +10,7 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "9.8.0-rc-1",
+      "version": "9.8.0",
       "buildId:": "0"
     }
   },
@@ -27,11 +27,11 @@
         {
           "name": "webgpu-1.0.0-alpha06-sources.jar",
           "url": "webgpu-1.0.0-alpha06-sources.jar",
-          "size": 234852,
-          "sha512": "d77bdbf36923c4a67551dec4cd1e961ab3c1cd5a6402e1bcda4956cef4a7194e1d661cc3be923c7ee15440a3aef993835760d0f307d4d980fe06ad1a964b333f",
-          "sha256": "49e83aeda9c82a5831391f68973b4c85ae1dd73b8fbd262273293eabcc119afb",
-          "sha1": "83a4240f910cadb2734c7b575c580d71502d3472",
-          "md5": "f650e72a48e413ecc936e39d413aa05f"
+          "size": 234886,
+          "sha512": "97c7c84740c873833c0879410039ab116c5da492568417628c4001821b60da8e85d3790ae05416124acb963487608dd605a8a0884f67feb0e170021b2b6ad646",
+          "sha256": "8079a733d5d0e254c3cfc77213b829f04f365a624f6082b0a674ed39748049fd",
+          "sha1": "3183fbf57710356763c25daad303e6db155fe3de",
+          "md5": "4dd2a2d094bceeed2364526af01900dd"
         }
       ]
     },
@@ -77,11 +77,11 @@
         {
           "name": "webgpu-1.0.0-alpha06.aar",
           "url": "webgpu-1.0.0-alpha06.aar",
-          "size": 14296228,
-          "sha512": "6dc9004cb53435881ebc3fd639df48f1c4a2bf19b2996050cca0df6ac38bbc6ecb9c3c5fa7217193cbcc2f70631d54104d4d56f673c48f7fb813d5a9ee8a51dd",
-          "sha256": "679c020b145396b2c47838e945ca68504d140789c34ec2249b0cb41e59887583",
-          "sha1": "2fa919da5eb3a99e8c157b077ffb5a7a38128bb5",
-          "md5": "dd35501166da30a31cf8f75c774a61a6"
+          "size": 14378049,
+          "sha512": "302706a38c247070c2152ddd28e195be428f92b1ba1aacc04b1550738ae3e2f19f088a04b16ea190e651969f1c1d2a33cc457cc06e246f5d1b327ea871d19165",
+          "sha256": "928b9e1fc34a6f7ff2afbc84b870f8deb1eeac3f0988885f006d48382cd345bb",
+          "sha1": "1d2934871ef4aa844d4d540d410dff0efe35ccca",
+          "md5": "4e79d9c403818ca8eaa384d6883c31d7"
         }
       ]
     },
@@ -127,11 +127,11 @@
         {
           "name": "webgpu-1.0.0-alpha06.aar",
           "url": "webgpu-1.0.0-alpha06.aar",
-          "size": 14296228,
-          "sha512": "6dc9004cb53435881ebc3fd639df48f1c4a2bf19b2996050cca0df6ac38bbc6ecb9c3c5fa7217193cbcc2f70631d54104d4d56f673c48f7fb813d5a9ee8a51dd",
-          "sha256": "679c020b145396b2c47838e945ca68504d140789c34ec2249b0cb41e59887583",
-          "sha1": "2fa919da5eb3a99e8c157b077ffb5a7a38128bb5",
-          "md5": "dd35501166da30a31cf8f75c774a61a6"
+          "size": 14378049,
+          "sha512": "302706a38c247070c2152ddd28e195be428f92b1ba1aacc04b1550738ae3e2f19f088a04b16ea190e651969f1c1d2a33cc457cc06e246f5d1b327ea871d19165",
+          "sha256": "928b9e1fc34a6f7ff2afbc84b870f8deb1eeac3f0988885f006d48382cd345bb",
+          "sha1": "1d2934871ef4aa844d4d540d410dff0efe35ccca",
+          "md5": "4e79d9c403818ca8eaa384d6883c31d7"
         }
       ]
     },

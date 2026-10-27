@@ -25,6 +25,7 @@ log() { echo "== $* =="; }
 # 1. Dawn: fetch the target commit and sync third_party/ deps to match.
 # ---------------------------------------------------------------------------
 log "Fetching Dawn commit $DAWN_COMMIT"
+git -C "$DAWN_DIR" checkout -- tools/android/webgpu/build.gradle
 git -C "$DAWN_DIR" fetch origin "$DAWN_COMMIT"
 git -C "$DAWN_DIR" checkout FETCH_HEAD
 

@@ -6,7 +6,7 @@ An unofficial Maven repository hosting a custom build of `androidx.webgpu:webgpu
 AndroidX `webgpu` module source with the Dawn native dependency pinned to a
 different commit than the official release:
 
-- Dawn source commit: `f92edf25efce9113ef66b777e47f8e8f8cca61af`
+- Dawn source commit: `b11ffea47d9117a9c4c9bf64ecd0654d0a9e8f57`
 - Artifact versions:
   - `1.0.0-alpha06` — same version string as the official release; only
     resolves correctly if the consuming project excludes `androidx.webgpu`
